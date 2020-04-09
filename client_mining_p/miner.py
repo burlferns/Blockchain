@@ -34,7 +34,7 @@ def valid_proof(block_string, proof):
     correct number of leading zeroes.
     :return: True if the resulting hash is a valid proof, False otherwise
     """
-    proofLength = 6
+    proofLength = 5
     guess = f"{block_string}{proof}".encode()
     guess_hash = hashlib.sha256(guess).hexdigest()
     # print(f'Checking proof value: {proof}. The pow_hash is: {guess_hash}')

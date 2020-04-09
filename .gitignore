@@ -108,3 +108,7 @@ my_id.txt
 
 #vscode local settings
 .vscode/
+
+
+#react
+node_modules
